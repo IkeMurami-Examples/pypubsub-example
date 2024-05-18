@@ -1,7 +1,7 @@
-from .playground_task import PlaygroundTask
-from ._tasks import Task
-from .core import SendTaskMessage
-from .models import Data
+from playground_task import PlaygroundTask
+from _tasks import Task
+from core import SendTaskMessage
+from models import Data
 
 # Register all tasks
 tasks = [

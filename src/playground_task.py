@@ -1,7 +1,5 @@
-from pydantic import BaseModel
-from .core import AbstractTask
-
-from .models import Data
+from core import AbstractTask
+from models import Data
 
 
 class PlaygroundTask(AbstractTask):
