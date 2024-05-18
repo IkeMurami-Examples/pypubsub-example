@@ -1,0 +1,2 @@
+class Task:
+    TEST = 'test'
